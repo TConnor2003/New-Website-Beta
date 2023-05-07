@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recent Activity</title>
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/keyframes.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/activity">Recent Activity</a>
+            <a href="/about">About</a>
+        </nav>
+        <h1>GitHub Log</h1>
+        <img src="/images/pfp.png">
+    </header>
+    <main>
+        <div class="container">
+            <div class="card">
+                <h2>GitHub User Info</h2>
+                <div class="user-info">
+                    <!-- username public_repos url repos_url -->
+                    <div class="user-info-card">
+                        <h3>Username</h3>
+                        <p id="username">Retrieving Data</p>
+                    </div>
+                    <div class="user-info-card">
+                        <h3>Public Repos</h3>
+                        <p id="public_repos">Retrieving Data</p>
+                    </div>
+                    <div class="user-info-card">
+                        <h3>Profile URL</h3>
+                        <p id="url">Retrieving Data</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="https://gist.github.com.ru/jcouyang/6336168ecbbf4fbdc46e.svg?username=TConnor2003&width=400&height=60" />
+    <script src="/js/github/latest.js"></script>
+    <script src="/js/github/userinfo.js"></script>
+</body>
+</html>
