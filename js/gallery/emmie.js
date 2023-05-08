@@ -1,5 +1,5 @@
-var itemname = "Emmie";
-var lowres = "/images/galleries/emmie/Emmie";
+var itemname = "emmie";
+var lowres = "/images/galleries/emmie/emmie";
 var lowrestype = ".jpg";
 var highres = "";
 var highrestype = ".png";
