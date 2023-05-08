@@ -30,7 +30,6 @@
 .gallery-image {
     width: 400px;
     height: 10vh;
-    border: rgb(255, 0, 0) 3px solid;
     border-radius: 5px;
     object-fit: cover;
 }

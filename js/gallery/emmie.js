@@ -5,6 +5,7 @@ var highres = "";
 var highrestype = ".png";
 var height = "300";
 var width = "150";
+var bordercolor = "#8138F1";
 
 /* if highres or highrestype are empty set to same as the low res versions */
 if (highres == "") {
@@ -24,7 +25,7 @@ let i = 1;
 while (imageExists(`${lowres}${i}${lowrestype}`)) {
 document.write(`
 <div class="gallery-item" onclick="showOverlay('${i}')">
-<img src="${lowres}${i}${lowrestype}" class="gallery-image" alt="${itemname} ${i}" id="${i}" style="width: ${width}px; height: ${height}px;" />
+<img src="${lowres}${i}${lowrestype}" class="gallery-image" alt="${itemname} ${i}" id="${i}" style="width: ${width}px; height: ${height}px; border: ${bordercolor} 3px solid;" />
 </div>
 `);
 i++;
